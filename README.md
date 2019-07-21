@@ -47,7 +47,7 @@
    We try to acheive multiple tasks simultaneously. Though our design could likely be optimized if we
    used smaller delays, reducing CPU cycles.
 
-Work Balance between Partners:
+# Work Balance between Partners:
 Mohammad Kebbi:
     * Implemented initializing sigaction
     * Implemented covertsigs.double
