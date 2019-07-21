@@ -1,12 +1,12 @@
-CMPUT 379: Assignment 1 Design Document
 
-Mohammad Kebbi; kebbi; 1496572
-Zachary Kist; zkist; 1508381
+# How to run program:
 
-How to run program:
-   Enter in the terminal 'make covertsigs.single or make covertsigs.double'
-   to compile the program
+*   Enter in the terminal 'make covertsigs.single or make covertsigs.double'
+  to compile the program
+* Execute program by running './covertsigs.single' or './covertsigs.double'
    
+
+# Design Questions:
 
 1. How do you code messages for the onesignal option (only SIGUSR1 used)?
    We use SIGUSR1 to send the number of signals equal to each specifc character's ascii number.
